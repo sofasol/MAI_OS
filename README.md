@@ -153,6 +153,13 @@ shared memory.**
 * Код должен быть легко читаем (правильно расставлены отступы, переменные и 
 функции имеют осмысленные названия)
 * Учтены все требования задания лабораторной работы
+* Системные функции Linux/MacOS, которые могут понадобиться: 
+`mmap` (MAP_ANONYMOUS), `munmap`, `dlopen`, `dlsym`, `dlclose`
+* Системные функции Windows, которые могут понадобиться: `VirtualAlloc`, 
+`VirtualFree`, `LoadLibrary`, `GetProcAddress`, `FreeLibrary`.
+* Использовать `malloc`, `free`, `calloc`, `realloc`, `new`, `delete` 
+запрещается
+
 
 Правила оформления отчета:
 
